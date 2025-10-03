@@ -147,8 +147,14 @@ li {
 .h-300 {
     height: 300px;
 }
+.h-30 {
+    height: 30px;
+}
 .h-500 {
     height: 500px;
+}
+.h-50 {
+    height: 50px;
 }
 
 .h-600 {
@@ -181,4 +187,17 @@ li {
 .w-70-4{
     width: calc(70% / 4);
     border: 1px dotted white;
+}
+
+br{
+    color: gray;
+}
+.footer{
+    height: 50px;
+}
+.border-bottom-gray{
+    border-bottom: 1px solid lightgray;
+}
+.cross-flex-end{
+    align-items: flex-end;
 }
