@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,40 +6,103 @@
 }
 
 /* Background Color */
-.bg-aqua{background-color: aqua;}
-.bg-yellow{background-color: yellow;}
-.bg-palet{background-color: palevioletred;}
-.bg-pink{background-color: pink;}
-.bg-light-blue{background-color: lightblue;}
-.bg-blue{background-color: blue;}
-.bg-green{background-color: green;}
-.bg-light-gray{background-color: lightgray;}
-.bg-white{background-color: white;}
-.bg-dark-slate-gray{background-color: darkslategray;}
-.bg-plum{background-color: plum;}
-.bg-aquamarine{background-color: aquamarine;}
-
-
-.header{
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
+.bg-aqua {
+    background-color: aqua;
 }
-.landing{
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-palet {
+    background-color: palevioletred;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-light-gray {
+    background-color: lightgray;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-dark-slate-gray {
+    background-color: darkslategray;
+}
+
+.bg-plum {
+    background-color: plum;
+}
+
+.bg-aquamarine {
+    background-color: aquamarine;
+}
+
+/* Classi */
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing {
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.nav{
+
+.nav {
     height: 20px;
-    width: 60%;
+    width: 800px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-ul{
+.jumbotron{
+    height: 300px;
+    width: 600px;
+}
+
+/* Tag */
+ul {
     display: flex;
 }
-li{
+
+li {
     margin-left: 10px;
 }
 
+/* Utilities */
+w-800 {
+    width: 800px;
+}
+
+w-600 {
+    width: 600px;
+}
+
+h-400 {
+    height: 400px;
+}
+
+h-300 {
+    height: 300px;
+}
