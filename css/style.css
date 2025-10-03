@@ -201,3 +201,8 @@ br{
 .cross-flex-end{
     align-items: flex-end;
 }
+button{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: palevioletred;
+}
