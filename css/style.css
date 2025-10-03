@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Color */
+.bg-aqua{background-color: aqua;}
+.bg-yellow{background-color: yellow;}
+.bg-palet{background-color: palevioletred;}
+.bg-pink{background-color: pink;}
+.bg-light-blue{background-color: lightblue;}
+.bg-blue{background-color: blue;}
+.bg-green{background-color: green;}
+.bg-light-gray{background-color: lightgray;}
+.bg-white{background-color: white;}
+.bg-dark-slate-gray{background-color: darkslategray;}
+.bg-plum{background-color: plum;}
+.bg-aquamarine{background-color: aquamarine;}
+
+
