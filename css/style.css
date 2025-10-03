@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 /* Background Color */
@@ -18,4 +19,27 @@
 .bg-plum{background-color: plum;}
 .bg-aquamarine{background-color: aquamarine;}
 
+
+.header{
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.landing{
+    height: 400px;
+}
+.nav{
+    height: 20px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left: 10px;
+}
 
